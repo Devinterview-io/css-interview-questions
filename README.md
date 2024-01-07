@@ -1,197 +1,733 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">
-      Top 50 CSS interview
-      questions and answers in 2021.
-    </h1> <p data-v-5e9078c0="">
-      You can check all
-      50
-      CSS interview questions here 👉
-      https://devinterview.io/dev/css-interview-questions
-    </p> <br data-v-5e9078c0=""> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. Explain the three main ways to apply CSS styles to a web page</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Using the inline style attribute on an element</p><pre><code><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>div</span><span class="token cBase">&gt;</span></span>
-    <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>p</span><span class="token style-attr language-css"><span class="token cVar"> <span class="token cVar">style</span></span><span class="token cBase">="</span><span class="token cString"><span class="token cVar">color</span><span class="token cBase">:</span> maroon<span class="token cBase">;</span></span><span class="token cBase">"</span></span><span class="token cBase">&gt;</span></span><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>p</span><span class="token cBase">&gt;</span></span>
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>div</span><span class="token cBase">&gt;</span></span></code></pre><p>Using a <code>&lt;style&gt;</code> block in the <code>&lt;head&gt;</code> section of your HTML</p><pre><code><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>head</span><span class="token cBase">&gt;</span></span>
-    <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>title</span><span class="token cBase">&gt;</span></span>CSS Refresher<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>title</span><span class="token cBase">&gt;</span></span>
-    <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>style</span><span class="token cBase">&gt;</span></span><span class="token style"><span class="token language-css">
-        <span class="token cBase">body</span> <span class="token cBase">{</span>
-            <span class="token cVar">font-family</span><span class="token cBase">:</span> sans-serif<span class="token cBase">;</span>
-            <span class="token cVar">font-size</span><span class="token cBase">:</span> 1.2em<span class="token cBase">;</span>
-        <span class="token cBase">}</span>
-    </span></span><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>style</span><span class="token cBase">&gt;</span></span>
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>head</span><span class="token cBase">&gt;</span></span></code></pre><p>Loading an external CSS file using the <code>&lt;link&gt;</code> tag</p><pre><code><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>head</span><span class="token cBase">&gt;</span></span>
-    <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>title</span><span class="token cBase">&gt;</span></span>CSS Refresher<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>title</span><span class="token cBase">&gt;</span></span>
-    <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>link</span> <span class="token cVar">rel</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>stylesheet<span class="token cBase">"</span></span> <span class="token cVar">href</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>/css/styles.css<span class="token cBase">"</span></span> <span class="token cBase">/&gt;</span></span>
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>head</span><span class="token cBase">&gt;</span></span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.goskills.com/Development/Articles/CSS-interview-questions-answers" rel="noreferrer" target="_blank" title="Explain the three main ways to apply CSS styles to a web page Interview Questions Source To Answer">goskills.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What is CSS?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>CSS</strong> stands for <strong>Cascading Style Sheets</strong>. CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p><p>CSS was intended to allow web professionals to separate the content and structure of a website's code from the visual design.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.w3schools.com/css/css_intro.asp" rel="noreferrer" target="_blank" title="What is CSS? Interview Questions Source To Answer">w3schools.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. How to use variables in Sass?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Think of variables as a way to store information that you want to reuse throughout your stylesheet. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. Sass uses the <code>$</code> symbol to make something a variable.</p><pre><code>$<span class="token cVar">font-stack</span><span class="token cBase">:</span>    Helvetica<span class="token cBase">,</span> sans-serif<span class="token cBase">;</span>
-$<span class="token cVar">primary-color</span><span class="token cBase">:</span> #333<span class="token cBase">;
+# 100 Fundamental CSS Interview Questions
 
-body</span> <span class="token cBase">{</span>
-  <span class="token cVar">font</span><span class="token cBase">:</span> 100% $font-stack<span class="token cBase">;</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> $primary-color<span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://sass-lang.com/guide" rel="noreferrer" target="_blank" title="How to use variables in Sass? Interview Questions Source To Answer">sass-lang.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. Explain CSS sprites, and how you would implement them on a page or site.</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><em>CSS sprites</em> combine multiple images into one single larger image. It is commonly used technique for icons (Gmail uses it). </p><ul><li>Use a sprite generator that packs multiple images into one and generate the appropriate CSS for it.</li><li>Each image would have a corresponding CSS class with <code>background-image</code>, <code>background-position</code> and <code>background-size</code> properties defined.</li><li>To use that image, add the corresponding class to your element.</li></ul><p><strong>Advantages</strong>:</p><ul><li>Reduce the number of HTTP requests for multiple images (only one single request is required per spritesheet). But with HTTP2, loading multiple images is no longer much of an issue.</li><li>Advance downloading of assets that won’t be downloaded until needed, such as images that only appear upon <code>:hover</code> pseudo-states. Blinking wouldn't be seen.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="Explain CSS sprites, and how you would implement them on a page or site. Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. Explain the CSS “box model” and the layout components that it consists of</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The CSS box model is a rectangular layout paradigm for HTML elements that consists of the following:</p><ul><li><strong>Content</strong> - The content of the box, where text and images appear</li><li><strong>Padding</strong> - A transparent area surrounding the content (i.e., the amount of space between the border and the content)</li><li><strong>Border</strong> - A border surrounding the padding (if any) and content</li><li><strong>Margin</strong> - A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.toptal.com/css/interview-questions" rel="noreferrer" target="_blank" title="Explain the CSS “box model” and the layout components that it consists of Interview Questions Source To Answer">toptal.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. What is a CSS rule?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Web browsers apply <strong>CSS rules</strong> to a document to affect how they are displayed. A CSS rule is formed from:</p><ul><li>A <strong>set of properties</strong>, which have values set to update how the HTML content is displayed,</li><li>A <strong>selector</strong>, which selects the element(s) you want to apply the updated property values to.</li></ul><p>A set of CSS rules contained within a stylesheet determines how a webpage should look. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works" rel="noreferrer" target="_blank" title="What is a CSS rule? Interview Questions Source To Answer">developer.mozilla.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. Explain what is a @extend directive used for in Sass?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Using <code>@extend</code> lets you share a set of CSS properties from one selector to another. It helps keep your Sass very dry.</p><p>Consider:</p><pre><code><span class="token cBase">%message-shared</span> <span class="token cBase">{</span>
-  <span class="token cVar">border</span><span class="token cBase">:</span> 1px solid #ccc<span class="token cBase">;</span>
-  <span class="token cVar">padding</span><span class="token cBase">:</span> 10px<span class="token cBase">;</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> #333<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+<div>
+<p align="center">
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
 
-<span class="token cBase">.message</span> <span class="token cBase">{</span>
-  <span class="token cString"><span class="token rule">@extend</span> %message-shared<span class="token cBase">;</span></span>
-<span class="token cBase">}</span>
+#### You can also find all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
 
-<span class="token cBase">.success</span> <span class="token cBase">{</span>
-  <span class="token cString"><span class="token rule">@extend</span> %message-shared<span class="token cBase">;</span></span>
-  <span class="token cVar">border-color</span><span class="token cBase">:</span> green<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+<br>
 
-<span class="token cBase">.error</span> <span class="token cBase">{</span>
-  <span class="token cString"><span class="token rule">@extend</span> %message-shared<span class="token cBase">;</span></span>
-  <span class="token cVar">border-color</span><span class="token cBase">:</span> red<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+## 1. What does _CSS_ stand for and what is its primary use?
 
-<span class="token cBase">.warning</span> <span class="token cBase">{</span>
-  <span class="token cString"><span class="token rule">@extend</span> %message-shared<span class="token cBase">;</span></span>
-  <span class="token cVar">border-color</span><span class="token cBase">:</span> yellow<span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre><p>CSS output:</p><pre><code><span class="token cBase">.message, .success, .error, .warning</span> <span class="token cBase">{</span>
-  <span class="token cVar">border</span><span class="token cBase">:</span> 1px solid #cccccc<span class="token cBase">;</span>
-  <span class="token cVar">padding</span><span class="token cBase">:</span> 10px<span class="token cBase">;</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> #333<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+**Cascading Style Sheets** (**CSS**) is primarily designed to separate web page content from its visual presentation. This allows for a consistent and adaptable design across multiple web pages.
 
-<span class="token cBase">.success</span> <span class="token cBase">{</span>
-  <span class="token cVar">border-color</span><span class="token cBase">:</span> green<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+### Key Concepts
 
-<span class="token cBase">.error</span> <span class="token cBase">{</span>
-  <span class="token cVar">border-color</span><span class="token cBase">:</span> red<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+- **Selectors**: Elements to which the style rules apply.
+- **Properties**: Visual features, such as font-size, color, and background.
+- **Values**: Specific settings for properties, like 'red' for the color property.
 
-<span class="token cBase">.warning</span> <span class="token cBase">{</span>
-  <span class="token cVar">border-color</span><span class="token cBase">:</span> yellow<span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://sass-lang.com/guide" rel="noreferrer" target="_blank" title="Explain what is a `@extend` directive used for in Sass? Interview Questions Source To Answer">career.guru99.comsass-lang.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. Have you played around with the new CSS Flexbox or Grid specs?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Yes. Flexbox is mainly meant for 1-dimensional layouts while Grid is meant for 2-dimensional layouts.</p><p>Flexbox solves many common problems in CSS, such as vertical centering of elements within a container, sticky footer, etc. Bootstrap and Bulma are based on Flexbox, and it is probably the recommended way to create layouts these days. Have tried Flexbox before but ran into some browser incompatibility issues (Safari) in using <code>flex-grow</code>, and I had to rewrite my code using <code>inline-blocks</code> and math to calculate the widths in percentages, it wasn't a nice experience.</p><p>Grid is by far the most intuitive approach for creating grid-based layouts (it better be!) but browser support is not wide at the moment.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="Have you played around with the new CSS Flexbox or Grid specs? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. What is DOM (Document Object Model) and how is it linked to CSS?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <em>Document Object Model (DOM)</em> is a cross-platform and language-independent <em>application programming interface</em> that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document. </p><p>With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content. The DOM specifies interfaces which may be used to manage XML or HTML documents. </p><p>When a browser displays a document, it must combine the document's content with its style information. The browser converts HTML and CSS into the DOM (Document Object Model). The DOM represents the document in the computer's memory. It combines the document's content with its style.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://en.wikipedia.org/wiki/Document_Object_Model" rel="noreferrer" target="_blank" title="What is DOM (Document Object Model) and how is it linked to CSS? Interview Questions Source To Answer">en.wikipedia.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. What is Sass?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Sass</strong> or <strong>Syntactically Awesome StyleSheets</strong> is a <em>CSS</em> preprocessor that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly.</p><p>A <em>CSS preprocessor</em> is a scripting language that extends CSS by allowing developers to write code in one language and then compile it into CSS. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax" rel="noreferrer" target="_blank" title="What is Sass? Interview Questions Source To Answer">sass-lang.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What existing CSS frameworks have you used locally, or in production? How would you change/improve them?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><strong>Bootstrap</strong> - Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely used.</li><li><strong>Semantic UI</strong> - Source code structure makes theme customization extremely hard to understand. Its unconventional theming system is a pain to customize. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.</li><li><strong>Bulma</strong> - A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="What existing CSS frameworks have you used locally, or in production? How would you change/improve them? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. Describe floats and how they work</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><em>Float</em> is a CSS positioning property. Floated elements remain a part of the flow of the web page. This is distinctly different than page elements that use absolute positioning. Absolutely positioned page elements are removed from the flow of the webpage.</p><pre><code><span class="token cBase">#sidebar</span> <span class="token cBase">{</span>
-  <span class="token cVar">float</span><span class="token cBase">:</span> right<span class="token cBase">;</span> // left right none inherit			
-<span class="token cBase">}</span></code></pre><p>The CSS clear property can be used to be positioned below <code>left</code>/<code>right</code>/<code>both</code> floated elements.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://css-tricks.com/all-about-floats/" rel="noreferrer" target="_blank" title="Describe floats and how they work Interview Questions Source To Answer">css-tricks.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. What Selector Nesting in Sass is used for?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Sass <em>let you nest</em> your CSS selectors in a way that follows the same visual hierarchy of your HTML.  CSS, on the other hand, doesn't have any visual hierarchy.</p><p>Consider example (scss):</p><pre><code><span class="token cBase">.parent</span> <span class="token cBase">{</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> red<span class="token cBase">;
+### Visual Example
 
-  .child</span> <span class="token cBase">{</span>
-    <span class="token cVar">color</span><span class="token cBase">:</span> blue<span class="token cBase">;</span>
-  <span class="token cBase">}</span>
-<span class="token cBase">}</span></code></pre><p>Result (css):</p><pre><code><span class="token cBase">.parent</span> <span class="token cBase">{</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> red<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+Here is the HTML code:
 
-<span class="token cBase">.parent .child</span> <span class="token cBase">{</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> blue<span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://sass-lang.com/guide" rel="noreferrer" target="_blank" title="What Selector Nesting in Sass is used for? Interview Questions Source To Answer">sass-lang.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. List out the key features for Sass?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Key features for Sass include</p><ul><li>Full CSS3-compatible</li><li>Language extensions such as nesting, variables, and mixins</li><li>Many useful functions for manipulating colors and other values</li><li>Advanced features like control directives for libraries</li><li>Well-formatted, customizable output</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://career.guru99.com/top-17-sass-interview-questions/" rel="noreferrer" target="_blank" title="List out the key features for Sass? Interview Questions Source To Answer">career.guru99.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. What is the difference between classes and IDs in CSS?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><p><strong>IDs</strong> — Meant to be unique within the document. Can be used to identify an element when linking using a fragment identifier. Elements can only have one id attribute.</p></li><li><p><strong>Classes</strong> — Can be reused on multiple elements within the document. Mainly for styling and targeting elements.</p></li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="What is the difference between classes and IDs in CSS? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 16. List out the data types that Sass supports</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Sass supports seven main data types:</p><ul><li><strong>Numbers</strong> - most of the time they are accompanied by a unit of some sort but they are still technically numbers. You can perform basic mathematical operations on these values.</li></ul><pre><code>$<span class="token cVar">size</span><span class="token cBase">:</span> 18<span class="token cBase">;</span>                  // A number
-$<span class="token cVar">px-unit</span><span class="token cBase">:</span> $size * 1px<span class="token cBase">;</span>      // A pixel measurement
-$<span class="token cVar">px-string</span><span class="token cBase">:</span> $size + px<span class="token cBase">;</span>     // A string
-$<span class="token cVar">px-number</span><span class="token cBase">:</span> $px-unit / 1px<span class="token cBase">;</span> // A number</code></pre><ul><li><strong>Strings</strong> - just like CSS, accepts both quoted and unquoted strings, even if they contain spaces</li></ul><pre><code>$<span class="token cVar">website</span><span class="token cBase">:</span> <span class="token cString">'SitePoint'</span><span class="token cBase">;</span> // Stores SitePoint
-$<span class="token cVar">name</span><span class="token cBase">:</span> <span class="token cString">'Gajendar'</span> + <span class="token cString">' Singh'</span><span class="token cBase">;</span>  // <span class="token cString">'Gajendar Singh'</span>
-$<span class="token cVar">date</span><span class="token cBase">:</span>  <span class="token cString">'Month/Year : '</span> + 3/2016<span class="token cBase">;</span> // <span class="token cString">'Month/Year : 3/2016'</span>
-$<span class="token cVar">date</span><span class="token cBase">:</span>  <span class="token cString">'Month/Year : '</span> + <span class="token cBase">(</span>3/2016<span class="token cBase">)</span><span class="token cBase">;</span> // <span class="token cString">'Month/Year : 0.00149'</span> 
-// This is because 3/2016 is evaluated first.
-$<span class="token cVar">variable</span><span class="token cBase">:</span> 3/2016<span class="token cBase">;</span>      // Evaluated to 0.00149</code></pre><ul><li><strong>Colors</strong> - CSS color expressions come under the <code>color</code> data type. You can refer to the colors in hexadecimal notation, as <code>rgb</code>, <code>rgba</code>, <code>hsl</code> and <code>hsla</code> values or use native keywords like <code>pink</code>, <code>blue</code>, etc. </li></ul><pre><code>$<span class="token cVar">color</span><span class="token cBase">:</span> yellowgreen<span class="token cBase">;</span>           // #9ACD32
-<span class="token cVar">color</span><span class="token cBase">:</span> <span class="token cMod">lighten</span><span class="token cBase">(</span>$color<span class="token cBase">,</span> 15%<span class="token cBase">)</span><span class="token cBase">;</span>    // #b8dc70
-<span class="token cVar">color</span><span class="token cBase">:</span> <span class="token cMod">darken</span><span class="token cBase">(</span>$color<span class="token cBase">,</span> 15%<span class="token cBase">)</span><span class="token cBase">;</span>     // #6c9023
-<span class="token cVar">color</span><span class="token cBase">:</span> <span class="token cMod">saturate</span><span class="token cBase">(</span>$color<span class="token cBase">,</span> 15%<span class="token cBase">)</span><span class="token cBase">;</span>   // #a1e01f
-<span class="token cVar">color</span><span class="token cBase">:</span> <span class="token cMod">desaturate</span><span class="token cBase">(</span>$color<span class="token cBase">,</span> 15%<span class="token cBase">)</span><span class="token cBase">;</span> // #93ba45
-<span class="token cVar">color</span><span class="token cBase">:</span> <span class="token cBase">(</span>green + red<span class="token cBase">)</span><span class="token cBase">;</span>           // #ff8000</code></pre><ul><li><strong>Booleans</strong> - has only two possible values: <code>true</code> and <code>false</code></li></ul><pre><code>$<span class="token cVar">i-am-true</span><span class="token cBase">:</span> true<span class="token cBase">;
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Latest News</h2>
+        <article>
+            <h3>Breaking News: Big Event Tomorrow</h3>
+            <p>Join us for our biggest event of the year!</p>
+        </article>
+    </section>
+    <footer>
+        &copy; 2022 YourSite
+    </footer>
+</body>
+</html>
+```
 
-body</span> <span class="token cBase">{</span>
-  <span class="token cString"><span class="token rule">@if</span> not $i-am-true</span> <span class="token cBase">{</span>
-    <span class="token cVar">background</span><span class="token cBase">:</span> <span class="token cMod">rgba</span><span class="token cBase">(</span>255<span class="token cBase">,</span> 0<span class="token cBase">,</span> 0<span class="token cBase">,</span> 0.6<span class="token cBase">)</span><span class="token cBase">;</span>
-  <span class="token cBase">}</span> <span class="token cString"><span class="token rule">@else</span></span> <span class="token cBase">{</span>
-    <span class="token cVar">background</span><span class="token cBase">:</span> <span class="token cMod">rgba</span><span class="token cBase">(</span>0<span class="token cBase">,</span> 0<span class="token cBase">,</span> 255<span class="token cBase">,</span> 0.6<span class="token cBase">)</span><span class="token cBase">;</span> // expected
-  <span class="token cBase">}</span>
-<span class="token cBase">}</span></code></pre><ul><li><strong>Null</strong> -  is commonly used to define an empty state, neither <code>true</code> or <code>false</code>. This is typically the value you want to set when defining a variable without a value, only to prevent the parser from crashing.</li></ul><pre><code><span class="token cBase">.foo</span> <span class="token cBase">{</span>
-  <span class="token cVar">content</span><span class="token cBase">:</span> <span class="token cMod">type-of</span><span class="token cBase">(</span>null<span class="token cBase">)</span><span class="token cBase">;</span> // null
-  <span class="token cVar">content</span><span class="token cBase">:</span> <span class="token cMod">type-of</span><span class="token cBase">(</span>NULL<span class="token cBase">)</span><span class="token cBase">;</span> // string
-  $<span class="token cVar">bar</span><span class="token cBase">:</span> <span class="token cString">'foo'</span> + null<span class="token cBase">;</span> // invalid null <span class="token cVar">operation</span><span class="token cBase">:</span> "foo plus null”.
-<span class="token cBase">}</span></code></pre><ul><li><strong>Lists</strong> - are just the Sass version of arrays. You can store multiple types of values in a list.</li></ul><pre><code>$<span class="token cVar">font-list</span><span class="token cBase">:</span> <span class="token cString">'Raleway'</span><span class="token cBase">,</span><span class="token cString">'Dosis'</span><span class="token cBase">,</span><span class="token cString">'Lato'</span><span class="token cBase">;</span> // Three comma separated elements
-$<span class="token cVar">pad-list</span><span class="token cBase">:</span> 10px 8px 12px<span class="token cBase">;</span> // Three space separated elements
-$<span class="token cVar">multi-list</span><span class="token cBase">:</span> <span class="token cString">'Roboto'</span><span class="token cBase">,</span>15px 1.3em<span class="token cBase">;</span> // This multi-list has two lists.</code></pre><ul><li><strong>Maps</strong> -  Sass maps are like associative arrays. A map stores both keys and values associated with those keys.</li></ul><pre><code>$<span class="token cVar">styling</span><span class="token cBase">:</span> <span class="token cBase">(</span>
-  <span class="token cString">'font-family'</span><span class="token cBase">:</span> <span class="token cString">'Lato'</span><span class="token cBase">,</span>
-  <span class="token cString">'font-size'</span><span class="token cBase">:</span> 1.5em<span class="token cBase">,</span>
-  <span class="token cString">'color'</span><span class="token cBase">:</span> tomato<span class="token cBase">,</span>
-  <span class="token cString">'background'</span><span class="token cBase">:</span> black
-<span class="token cBase">)</span><span class="token cBase">;
+And, here is the accompanying CSS in `styles.css`:
 
-h1</span> <span class="token cBase">{</span>
-  <span class="token cVar">color</span><span class="token cBase">:</span> <span class="token cMod">map-get</span><span class="token cBase">(</span>$styling<span class="token cBase">,</span> <span class="token cString">'color'</span><span class="token cBase">)</span><span class="token cBase">;</span>
-  <span class="token cVar">background</span><span class="token cBase">:</span> <span class="token cMod">map-get</span><span class="token cBase">(</span>$styling<span class="token cBase">,</span> <span class="token cString">'background'</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://career.guru99.com/top-17-sass-interview-questions/" rel="noreferrer" target="_blank" title="List out the data types that Sass supports Interview Questions Source To Answer">career.guru99.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 17. What is variable interpolation in Sass? Provide some examples.</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p> If you want to use variables inside a string, you will have to use a process called <strong>variable interpolation</strong>. To use it you will have to wrap your variables in <code>#{}</code>. </p><p>Consider:</p><pre><code>$<span class="token cVar">name</span><span class="token cBase">:</span> <span class="token cString">'Gajendar'</span><span class="token cBase">;</span>
-$<span class="token cVar">author</span><span class="token cBase">:</span> <span class="token cString">'Author : $name'</span><span class="token cBase">;</span> // <span class="token cString">'Author : $name'</span>
+```css
+/* Targeting all text on the page */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
 
-$<span class="token cVar">author</span><span class="token cBase">:</span> <span class="token cBase">'Author : #</span><span class="token cBase">{</span>$name<span class="token cBase">}</span>'<span class="token cBase">;</span>
-// <span class="token cString">'Author : Gajendar'</span></code></pre><p>The interpolation method could be useful in situations where the value of a variable is determined by some conditional statements. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.sitepoint.com/data-types-in-sass/" rel="noreferrer" target="_blank" title="What is variable interpolation in Sass? Provide some examples.  Interview Questions Source To Answer">sitepoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 18. What's the difference between SCSS and Sass?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>There are two syntaxes available for Sass. The first, known as <strong>SCSS (Sassy CSS)</strong> and used throughout this reference, is an extension of the syntax of CSS. This means that every valid CSS stylesheet is a valid SCSS file with the same meaning. This syntax is enhanced with the Sass features described below. Files using this syntax have the <code>.scss</code> extension.</p><p>The second and older syntax, known as the indented syntax (or sometimes just <strong>Sass</strong>), provides a more concise way of writing CSS. It uses indentation rather than brackets to indicate nesting of selectors, and newlines rather than semicolons to separate properties. Files using this syntax have the <code>.sass</code> extension.</p><p>Consider <strong>example.sass</strong>:</p><pre><code>$<span class="token cVar">color</span><span class="token cBase">:</span> red
+/* Targeting the header elements */
+header {
+  background-color: #1e90ff;
+  padding: 1em 0;
+  text-align: center;
+}
 
-=<span class="token cMod">my-border</span><span class="token cBase">(</span>$color<span class="token cBase">)</span>
-  <span class="token cVar">border</span><span class="token cBase">:</span> 1px solid $color
+/* Targeting the nav elements */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-body
-  <span class="token cVar">background</span><span class="token cBase">:</span> $color
-  +<span class="token cMod">my-border</span><span class="token cBase">(</span>green<span class="token cBase">)</span></code></pre><p>Consider <strong>example.scss</strong>:</p><pre><code>$<span class="token cVar">color</span><span class="token cBase">:</span> red<span class="token cBase">;</span>
+/* Targeting the nav links */
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
 
-<span class="token cString"><span class="token rule">@mixin</span> <span class="token cMod">my-border</span><span class="token cBase">(</span>$color<span class="token cBase">)</span></span> <span class="token cBase">{</span>
-  <span class="token cVar">border</span><span class="token cBase">:</span> 1px solid $color<span class="token cBase">;</span>
-<span class="token cBase">}</span>
+/* Targeting the main section */
+section {
+  padding: 20px;
+}
 
-<span class="token cBase">body</span> <span class="token cBase">{</span>
-  <span class="token cVar">background</span><span class="token cBase">:</span> $color<span class="token cBase">;</span>
-  <span class="token cString"><span class="token rule">@include</span> <span class="token cMod">my-border</span><span class="token cBase">(</span>green<span class="token cBase">)</span><span class="token cBase">;</span></span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/5654447/whats-the-difference-between-scss-and-sass" rel="noreferrer" target="_blank" title="What's the difference between SCSS and Sass? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 19. Explain the usage of "table-layout" property</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <code>table-layout</code> property defines the algorithm used to lay out table cells, rows, and columns.</p><pre><code><span class="token cVar">table-layout</span><span class="token cBase">:</span> auto|fixed|initial|inherit<span class="token cBase">;</span></code></pre><ul><li><strong>auto</strong> - 	Browsers use an automatic table layout algorithm. The column width is set by the widest unbreakable content in the cells. The content will dictate the layout.</li><li><strong>fixed</strong> - 	The layout is fixed based on the first row. Set the width of those, and the rest of the table follows. If no widths are present on the first row, the column widths are divided equally across the table, regardless of content inside the cells.</li><li><strong>initial</strong> - Sets this property to its default value.</li><li><strong>inherit</strong> - Inherits this property from its parent element.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.w3schools.com/cssref/pr_tab_table-layout.asp" rel="noreferrer" target="_blank" title="Explain the usage of &quot;table-layout&quot; property Interview Questions Source To Answer">w3schools.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 20. What's the difference between a relative, fixed, absolute and statically positioned element?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A positioned element is an element whose computed <code>position</code> property is either <code>relative</code>, <code>absolute</code>, <code>fixed</code> or <code>sticky</code>.</p><ul><li><code>static</code> - The default position; the element will flow into the page as it normally would. The <code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code> and <code>z-index</code> properties do not apply.</li><li><code>relative</code> - The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).</li><li><code>absolute</code> - The element is removed from the flow of the page and positioned at a specified position relative to its closest positioned ancestor if any, or otherwise relative to the initial containing block. Absolutely positioned boxes can have margins, and they do not collapse with any other margins. These elements do not affect the position of other elements.</li><li><code>fixed</code> - The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn't move when scrolled.</li><li><code>sticky</code> - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as <code>relative</code> positioned until it crosses a specified threshold, at which point it is treated as <code>fixed</code> positioned.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="What's the difference between a `relative`, `fixed`, `absolute` and `static`ally positioned element? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 21. Have you ever worked with retina graphics? If so, when and what techniques did you use?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><em>Retina</em> is just a marketing term to refer to high resolution screens with a pixel ratio bigger than 1. The key thing to know is that using a pixel ratio means these displays are emulating a lower resolution screen in order to show elements with the same size. Nowadays we consider all mobile devices <em>retina</em> defacto displays.</p><p>Browsers by default render DOM elements according to the device resolution, except for images.</p><p>In order to have crisp, good-looking graphics that make the best of retina displays we need to use high resolution images whenever possible. However using always the highest resolution images will have an impact on performance as more bytes will need to be sent over the wire.</p><p>To overcome this problem, we can use responsive images, as specified in HTML5. It requires making available different resolution files of the same image to the browser and let it decide which image is best, using the html attribute <code>srcset</code> and optionally <code>sizes</code>, for instance:</p><pre><code><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>div</span> <span class="token cVar">responsive-background-image</span><span class="token cBase">&gt;</span></span>  
-  <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>img</span> <span class="token cVar">src</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>/images/test-1600.jpg<span class="token cBase">"</span></span>
-    <span class="token cVar">sizes</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>
-      (min-width: 768px) 50vw,
-      (min-width: 1024px) 66vw,
-      100vw<span class="token cBase">"</span></span>
-    <span class="token cVar">srcset</span><span class="token cString"><span class="token cBase">=</span><span class="token cBase">"</span>
-      /images/test-400.jpg 400w,
-      /images/test-800.jpg 800w,
-      /images/test-1200.jpg 1200w<span class="token cBase">"</span></span><span class="token cBase">&gt;</span></span>
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>div</span><span class="token cBase">&gt;</span></span></code></pre><p>It is important to note that browsers which don't support HTML5's <code>srcset</code> (i.e. IE11) will ignore it and use <code>src</code> instead. If we really need to support IE11 and we want to provide this feature for performance reasons, we can use a JavaScript polyfill, e.g. Picturefill (link in the references).</p><p>For icons, I would also opt to use SVGs and icon fonts where possible, as they render very crisply regardless of resolution.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="Have you ever worked with retina graphics? If so, when and what techniques did you use? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 22. What are the advantages/disadvantages of using CSS preprocessors?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Advantages:</strong></p><ul><li>CSS is made more maintainable.</li><li>Easy to write nested selectors.</li><li>Variables for consistent theming. Can share theme files across different projects.</li><li>Mixins to generate repeated CSS.</li><li>Splitting your code into multiple files. CSS files can be split up too but doing so will require a HTTP request to download each CSS file.</li></ul><p><strong>Disadvantages:</strong></p><ul><li>Requires tools for preprocessing. Re-compilation time can be slow.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="What are the advantages/disadvantages of using CSS preprocessors? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 23. How is responsive design different from adaptive design?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Both <em>responsive</em> and <em>adaptive</em> design attempt to optimize the user experience across different devices, adjusting for different viewport sizes, resolutions, usage contexts, control mechanisms, and so on.</p><p><strong>Responsive design</strong> works on the principle of flexibility — a single fluid website that can look good on any device. Responsive websites use <em>media queries</em>, <em>flexible grids</em>, and <em>responsive images</em> to create a user experience that flexes and changes based on a multitude of factors. Like a single ball growing or shrinking to fit through several different hoops.</p><p><strong>Adaptive design</strong> is more like the modern definition of progressive enhancement. Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a <em>predefined set of viewport sizes</em> and other characteristics. The site detects the type of device used, and delivers the pre-set layout for that device. Instead of a single ball going through several different-sized hoops, you’d have several different balls to use depending on the hoop size.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="How is responsive design different from adaptive design? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 24. What is CSS selectors? Name some.</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A CSS selector is the part of a CSS rule set that actually selects the content you want to style.</p><p>Consider some types of CSS selectors:</p><ul><li><strong>Universal selector</strong>: <code>*</code></li><li><strong>Element type selector</strong>: <code>ul</code>, <code>td</code></li><li><strong>ID Selector</strong>: <code>#id</code></li><li><strong>Class selector</strong>: <code>.box</code></li><li><strong>Descendant combinator</strong>: <code>#id .box</code>. The .box element doesn’t have to be an immediate child of #id.</li><li><strong>Child combinator</strong>: <code>#id &gt; .box</code>. Unlike the descendant combinator, there can’t be another element wrapping .box</li><li><strong>General Sibling Combinator</strong>: <code>~</code></li><li><strong>Adjacent Sibling Combinator</strong>: <code>+</code>. The difference from general sibling combinaltor is that the targeted element must be an immediate sibling, not just a general sibling.</li><li><strong>Attribute Selector</strong>: <code>input[type="text"]</code></li><li><strong>Pseudo-class</strong>: <code>a:hover</code>. A pseudo-class uses a colon character to identify a pseudo-state that an element might be in.</li><li><strong>Pseudo-element</strong>: <code>.container::before</code>. This selector inserts an imaginary element into the page, inside the targeted element, before its contents.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.sitepoint.com/css-selectors/" rel="noreferrer" target="_blank" title="What is CSS selectors? Name some. Interview Questions Source To Answer">sitepoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 25. What does Accessibility (a11y) mean?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Accessibility (a11y)</strong> is a measure of a computer system's accessibility is to all people, including those with disabilities or impairments. It concerns both software and hardware and how they are configured in order to enable a disabled or impaired person to use that computer system successfully.</p><p>Accessibility is also known as <em>assistive technology</em>.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.techopedia.com/definition/10165/accessibility-a11y" rel="noreferrer" target="_blank" title="What does Accessibility (a11y) mean? Interview Questions Source To Answer">techopedia.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 26. What is CSS preprocessor and why to user one?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>CSS preprocessor</strong> is a program that lets you generate CSS from the preprocessor's own unique syntax. There are many CSS preprocessors to choose from, however most CSS preprocessors will add some features that don't exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so on. These features make the CSS structure more readable and easier to maintain.</p><p>Here are a few of the most popular CSS preprocessors:</p><ul><li>SASS (SCSS)</li><li>LESS</li><li>Stylus</li><li>PostCSS</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor" rel="noreferrer" target="_blank" title="What is CSS preprocessor and why to user one? Interview Questions Source To Answer">developer.mozilla.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 27. How would you approach fixing browser-specific styling issues?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li>After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.</li><li>Use libraries like Bootstrap that already handles these styling issues for you.</li><li>Use <code>autoprefixer</code> to automatically add vendor prefixes to your code.</li><li>Use Reset CSS or Normalize.css.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="How would you approach fixing browser-specific styling issues? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 28. What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><strong>Resetting</strong> — is meant to strip all default browser styling on elements. For e.g. <code>margins</code>, <code>paddings</code>, <code>font-sizes</code> of all elements are reset to be the same. You will have to redeclare styling for common typographic elements.</li><li><strong>Normalizing</strong> — preserves useful default styles rather than “unstyling” everything. It also corrects bugs for common browser dependencies.</li></ul><p>It's a good idea to choose resetting when you have very a customized or unconventional site design such that I need to do a lot of my own styling do not need any default styling to be preserved.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why? Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 29. Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <em>CSS box model</em> is responsible for calculating:</p><ul><li>How much space a block-level element takes up.</li><li>Whether or not borders and/or margins overlap, or collapse.</li><li>A box’s dimensions</li></ul><pre><code><span class="token cBase">div</span> <span class="token cBase">{</span>
-    <span class="token cVar">width</span><span class="token cBase">:</span> 300px<span class="token cBase">;</span>
-    <span class="token cVar">border</span><span class="token cBase">:</span> 25px solid green<span class="token cBase">;</span>
-    <span class="token cVar">padding</span><span class="token cBase">:</span> 25px<span class="token cBase">;</span>
-    <span class="token cVar">margin</span><span class="token cBase">:</span> 25px<span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre><p>The box model has the following rules:</p><ul><li>The dimensions of a block element are calculated by <code>width</code>, <code>height</code>, <code>padding</code>, <code>borders</code>, and <code>margins</code>.</li><li>If no height is specified, a <code>block</code> element will be as high as the content it contains, plus padding (unless there are floats, for which see below).</li><li>If no width is specified, a non-floated <code>block</code> element will expand to fit the width of its parent minus padding.</li><li>The <code>height</code> of an element is calculated by the content's height.</li><li>The <code>width</code> of an element is calculated by the content's width.</li><li>By default, <code>paddings</code> and <code>borders</code> are not part of the width and height of an element.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models. Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 30. Describe pseudo-elements and discuss what they are used for.</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <em>CSS pseudo-element</em> is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (<code>:first-line</code>, <code>:first-letter</code>) or adding elements to the markup (combined with <code>content: ...</code>) without having to modify the markup (<code>:before</code>, <code>:after</code>).</p><p>Example of usage:</p><ul><li><code>:first-line</code> and <code>:first-letter</code> can be used to decorate text.</li><li>Used in the <code>.clearfix</code> hack to add a zero-space element with <code>clear: both</code>.</li><li>Triangular arrows in tooltips use <code>:before</code> and <code>:after</code>. Encourages separation of concerns because the triangle is considered part of styling and not really the DOM, but not really possible to draw a triangle with just CSS styles.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2" rel="noreferrer" target="_blank" title="Describe pseudo-elements and discuss what they are used for. Interview Questions Source To Answer">codeburst.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 31. How does CSS actually work (under the hood of browser)?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 32. What is a Grid System in CSS?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 33. What is a Mixin and how to use on?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 34. How to create a zebra striped table with CSS?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 35. Explain the purpose of clearing floats in CSS</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 36. What does * { box-sizing: border-box; } do? What are its advantages?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 37. Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 38. Explain the basic rules of CSS Specificity</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 39. How do you optimize your webpages for print?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 40. Have you ever used a grid system, and if so, what do you prefer?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 41. What are the different ways to visually hide content (and make it available only for screen readers)?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 42. Describe z-index and how a stacking context is formed</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 43. Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 44. What the code fragment has the greater CSS specificity?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 45. What will be the CSS output for the following Sass code?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 46. What is the @content directive used for?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 47. Write down a selector that will match any links end in .zip, .ZIP, .Zip etc...</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 48. How to style every element which has an adjacent item right before it?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 49. What’s wrong with Sass nesting? Provide some example.</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 50. What clearfix methods do you know? Provide some examples.</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/css-interview-questions">all 50 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-    Thanks 🙌 for reading and good luck on your next tech interview!
-    <br data-v-5e9078c0="">
-    Explore 3800+ dev interview question here 👉
-    <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+/* Targeting the footer element */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #1e90ff;
+  color: #fff;
+}
+```
+<br>
+
+## 2. How do you include _CSS_ in your _HTML document_?
+
+There are **four primary methods** to incorporate CSS in an HTML document, each presenting unique advantages and use cases.
+
+### Methods of CSS Integration
+
+1. **Inline Style**: Directly insert CSS rules within HTML tags.
+2. **Embedded Style**: Encompass CSS within the HTML document's `<head>` section.
+3. **External Style Sheet**: Create a standalone `.css` file to be referenced in the HTML.
+4. **Imported Style Sheet**: Employ `@import` within a `<style>` tag or a CSS file to bring in other CSS files.
+
+### Key Considerations
+
+- **Specificity**: The degree of influence a selector has over others.
+- **Reuse**: The potential to apply the same CSS rules across multiple elements.
+- **Maintainability**: The ease with which one can update and manage the CSS.
+
+### Best Practices
+
+- **Ideally, Choose a Single Method**: Mixing techniques can complicate maintenance and understanding.
+- **Inline Styles for Quick Changes**: Useful when rapid style modifications are necessary.
+
+### HTML Code Example: Methods Northwind.CSS
+
+Here is the HTML code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+    <style>
+        h1, h2, p {
+            color: green;
+        }
+        
+        div {
+            border: 1px solid black;
+        }
+    </style>
+<body>
+    <h1>My Header</h1>
+    <p>Hello, World!</p>
+</body>
+</html>
+```
+<br>
+
+## 3. Can you explain the difference between _class_ and _ID selectors_?
+
+**Class** and **ID** selectors in CSS serve distinct roles and have limitations in their applicability.
+
+### Selectivity and Applicability
+
+- **Class Selector** (\`.classname{...}\`): Matches **multiple elements** that share the same class attribute. These elements can belong to various HTML tags (e.g., `<div>`, `<p>`).
+
+- **ID Selector** (`#idName{...}`): Identifies a **single unique element** based on its unique ID attribute. While it's still possible to style multiple elements with the same ID, best practices mandate unique IDs for effective CSS usage.
+
+### Efficiency and Performance
+
+- **Class Selector**: Generally faster to compute than ID selectors in modern browsers, particularly when applied to a large number of elements.
+
+- **ID Selector**: Formerly superior in terms of speed, contemporary browsers mitigate this difference.
+
+### Common Use Cases
+
+- **Class Selector**: Ideal for styling groups of elements based on shared attributes or type.
+
+- **ID Selector**: Typically reserved for unique elements that require highly specific styling or JavaScript manipulation. While it's valid to use an ID for styling, as stated in the HTML5 specification, it's generally more maintainable to reserve the use of IDs for uniquely identifiable elements and use classes for styling.
+
+### Code Example: Class and ID Selectors
+
+Here is the HTML code:
+
+```html
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">Content 1</div>
+    <div class="content">Content 2</div>
+    <div class="content" id="uniqueContent">Special Content</div>
+  </body>
+</html>
+```
+
+Here is the CSS code:
+
+```css
+/* Styles applied using class selectors */
+.content { color: blue; }
+
+/* Styles applied using ID selector */
+#uniqueContent { color: red; }
+```
+<br>
+
+## 4. What are _pseudo-classes_ in _CSS_?
+
+**Pseudo-classes** are special keywords in CSS that allow you to apply styles to elements based not only on their state or position in the document tree but also on user interaction.
+
+### Categories of Pseudo-Classes
+
+- **Dynamic Pseudo-classes**: These appear as the user interacts with an element. For instance, `:hover` is activated when the user hovers the cursor over an element.
+
+- **User-action Pseudo-classes**: These capture actions taken by the user, such as `:checked` for input elements that are selected.
+
+- **Relationship Pseudo-classes**: These pertain to the document tree's hierarchical structure, like `:first-child` for an element that's the first child within its parent.
+
+
+- **Language Pseudo-Classes**: These cater to elements displayed in specific languages, for example `:dir()`.
+
+- **Input Control Pseudo-Classes**: Designed specifically for interactive elements, these pseudo-classes style form controls like buttons, inputs, and text areas. Some examples are `:default`, `:valid`, `:invalid`, and `:optional`.
+
+- **Enabled and Disabled Pseudo-classes**: These are self-explanatory; they alter the style of elements based on whether they're enabled or disabled. Examples include `:enabled` and `:disabled`.
+<br>
+
+## 5. Describe how to implement a _CSS reset_ and why it is useful.
+
+A **CSS reset** is a set of styles intended to reduce browser inconsistencies in elements such as margins, paddings, and various typical style defaults. 
+
+### Benefits of CSS Reset
+
+- **Consistent Starting Point**: Eliminates default styling differences across browsers, making the design process more predictable.
+- **Consistent Box Model**: Ensures uniform calculations of element sizing (e.g., widths and heights) to prevent unexpected layout shifts.
+- **Want Only Custom Styles**: It's especially useful if you intend to start from a blank slate and apply your own bespoke styles.
+
+### The Code
+
+For HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello, CSS Reset!</h1>
+</body>
+</html>
+```
+
+And for CSS, here is a simple **normalize.css**-based reset:
+
+```css
+/* reset.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+```
+<br>
+
+## 6. How do you select elements by _attribute_ in _CSS_?
+
+While programming in CSS, you can leverage **attribute selectors** to define rules based on the presence or value of specific HTML attributes.
+
+### Benefits
+
+Using attribute selectors has multiple advantages, such as:
+
+- **Versatility**: They cater to a wide range of scenarios.
+- **Simplicity**: They are easy to use.
+- **Consistency**: They're a part of a standard set of CSS selectors.
+
+### Variations
+
+You can utilize attribute selectors in three distinct ways:
+
+- **Exact Match**: `[]` selects an exact attribute value.
+- **Value Starts With**: `[^]` targets attributes with specified starting values.
+- **Case Insensitive**: Selectors are usually case-sensitive, but by using `i`, you can make them case-insensitive.
+
+Here is the CSS code snippet:
+
+```css
+/* Exact Match */
+[class="important"] {
+  color: red;
+}
+
+/* Value Starts With */
+[href^="https"] {
+  color: green;
+}
+
+/* Case Insensitive */
+[alt="home" i] {
+  background: url('home-icon.png');
+}
+```
+
+In the example above,
+
+- `[class="important"]` selects all elements with the exact `class` attribute set to "important".
+- `[href^="https"]` will style all anchor links with an `href` attribute that starts with "https".
+- `[alt="home" i]` targets the `alt` attribute with a value of "home" in a case-insensitive manner.
+<br>
+
+## 7. What is a _pseudo-element_, and what are they used for?
+
+**Pseudo-elements** are virtual elements that give developers the power to style parts of an HTML document that don't correspond to actual HTML elements. Essentially, they let you apply styles to specific parts of an element without the need for extra HTML markup.
+
+Commonly used `pseudo-elements` include `::before` and `::after` which let developers insert content before or after an element, respectively.
+
+### Key Features
+
+- **Automatic Insertion**: These pseudo-elements can add content continuously without requiring manual code changes.
+- **Dynamic Content**: With generated content and styles, pseudo-elements can adapt based on the specific conditions.
+- **Custom Styling**: Pseudo-elements enable developers to style parts of an element differently than the rest.
+
+### Practical Applications
+
+1. #### Indicating External Links
+
+   - **Link**: Indicating content that opens an external website.
+   - **Implementation**: Visual or textual cues like arrows or "External Link" next to anchor elements.
+
+2. #### Specialized Numbers and Letters
+
+   - **Link**: Styling a single letter or number within a text block.
+   - **Implementation**: Especially useful in design, for instance, highlighting the first letter of a paragraph with a larger font size.
+
+3. #### Responsive Backgrounds
+
+   - **Link**: Apply background images or colors specific to certain parts of an element for various screen sizes.
+   - **Implementation**: Use media queries within the pseudo-element for specific screen sizes.
+
+4. #### Code Blocks and Blockquotes
+
+   - **Link**: Add decorative elements preceding and following code blocks and blockquote elements.
+   - **Implementation**: Help highlight code samples or visually delineate long blockquote sections.
+
+5. #### Custom Radio Buttons and Checkboxes
+
+   - **Link**: Rework default styling for radio buttons and checkboxes for a more customized look.
+   - **Implementation**: Use ::before or ::after with content property to replace default appearance.
+
+6. #### Clear Floats
+
+   - **Link**: Overcome challenges in parent containers not respecting the height of floated child elements and collapsing.
+   - **Implementation**: Create an element with ::after pseudo-element where the content clears the floats.
+
+7. #### Hacks for Older Browsers
+
+   - **Link**: Sometimes, especially with prior versions of Internet Explorer, using pseudo-elements proves crucial for achieving desired stylings.
+   - **Implementation**: Useful for applying specifically crafted styles that wouldn't work properly on older browsers without this technique.
+<br>
+
+## 8. Explain the difference between the _child combinator_ and the _descendant combinator_.
+
+The **child combinator** (>) and the **descendant combinator** (~) both serve to target HTML elements with CSS. However, they **operate in different ways**.
+
+### Distinct Characteristics
+
+- Child Combinator **>**: Selects an HTML element that is a **direct child** of another element.
+- Descendant Combinator **~**: Matches an HTML element that is a **descendant** (direct or indirect child) of another specified element.
+
+### Code Example
+
+Here is the CSS:
+
+```css
+/* target direct children of the parent element */
+nav > ul > li {
+  color: red;
+}
+
+/* target any descendant list items under nav */
+nav li {
+  color: blue;
+}
+```
+
+Here is the HTML:
+
+```html
+<nav>
+  <ul>
+    <li>Direct Child</li> <!-- This is red -->
+    <li>
+      Nested Child <!-- This is blue -->
+      <ul>
+        <li>Nested List Item</li> <!-- This is blue -->
+      </ul>
+    </li>
+  </ul>
+</nav>
+```
+
+### Best Practices for Combinator Use
+
+1. **Specificity of Selection**: Implement the **child combinator** $>$ when you want to target a specific, direct child of an element.
+2. **Minimize Global Targeting**: Utilize the **descendant combinator** cautiously as it has the potential for global targeting. It's often a good habit to opt for more specific selectors.
+3. **Balance Styling and Performance**: As a rule of thumb, more specific selectors could improve rendering speed. Use combinators with a balanced approach keeping in mind both specificity and performance needs.
+<br>
+
+## 9. How would you select all direct _children elements_ of a particular type?
+
+To **select all direct children** of a specific type in CSS, you can use the `>` **child selector** combined with the desired element to build the selector.
+
+For example, to select all the direct children that are `<li>` elements within an `<ul>` element, you would use the following CSS:
+
+```css
+ul > li {
+  /* Styles here */
+}
+```
+<br>
+
+## 10. What are the _universal selector_ and the _sibling combinator_, and when would you use them?
+
+The **Universal Selector** (the asterisk, `*`) is a powerful tool that enables you to target every element within a specified container. While it's a straightforward selector, its implications can be broad.
+
+- **When to Use**: You might want to normalize or reset specific CSS properties (resetting padding, margin, etc.) across all elements within a container or the entire document. The **Universal Selector** effectively achieves this.
+
+- **Best Practices**: Overuse of the **Universal Selector** can lead to performance issues and unexpected style side effects. Keep its use concise and well-defined.
+
+### When To Use Sibling Combinator
+
+The **Sibling Combinator** (`+`) in CSS targets elements that are immediately preceded by a specified element. Unlike child (`>`) or descendant (whitespace) selectors, the **sibling combinator** allows direct sibling targeting.
+
+- **When to Use**: For DOM structures where direct sibling relationships are key, such as tabbed content or multi-step forms.
+
+- **Best Practices**: While direct sibling targeting is useful, ensure it's the most efficient method for your objective. Overreliance can lead to inflexible CSS and HTML structures.
+
+#### Code Example: Universal Selector
+
+Here is the CSS:
+
+```css
+/* Remove margins, paddings on all elements within the container */
+.containers > * {
+    margin: 0;
+    padding: 0;
+}
+```
+
+The HTML:
+
+```html
+<div class="container">
+    <p>Paragraph 1</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+</div>
+```
+
+#### Code Example: Sibling Combinator
+
+Here is the CSS:
+
+```css
+/* Style the direct sibling anchor tag when a list item is hovered */
+ul li:hover + a {
+    color: red;
+}
+```
+
+The HTML:
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li><a href="#">Link</a></li>
+</ul>
+```
+
+### Case Study: Practical Applications
+
+Let us take a real-world example.
+
+#### Resetting Margins and Paddings
+
+In this scenario, you have a parent container and you want to remove the default margins and paddings from all its child elements.
+
+The **Universal Selector** can accomplish this:
+
+Here is the CSS:
+
+```css
+.container > * {
+    margin: 0;
+    padding: 0;
+}
+```
+
+The HTML:
+
+```html
+<div class="container">
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+</div>
+```
+<br>
+
+## 11. What is the _CSS Box Model_?
+
+The **Box Model** is the foundational concept in CSS that describes the structure of an HTML element. It encompasses four key components: **content**, **padding**, **border**, and **margin**.
+
+### Box Model Components
+
+- **Content**: The actual element content, such as text, images, or other visual or interactive elements.
+- **Padding**: Clears an area around the element's content, inside the border. The padding is transparent and doesn't have a background color or border.
+- **Border**: A solid line that defines the boundary of the padding area.
+- **Margin**: Clears an area around the element's border, outside any defined background or border.
+
+### Visual Representation
+![CSS Box Model](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/questions-images%2Fcss-box-model.jpg?alt=media&token=f36af6aa-69e3-4cc5-bdce-8a0558d22861)
+
+### Key Attributes
+
+- **Height** & **Width**: Element dimensions are determined by the sum of content width/height, and any padding, border, or margin added to it.
+- **Border**: Specifies the size, style, and color of the border surrounding the content and padding.
+- **Margin**: Defines the **clearance** between adjacent elements.
+
+### Code Example: Box Model
+
+Here is the HTML code:
+```html
+<div id="boxModelExample">This is an example of text within the Box Model.</div>
+```
+
+Here is the CSS code:
+``` CSS
+#boxModelExample {
+    border: 5px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+```
+
+### Margins
+
+#### Auto Margins
+When the surrounding container has a defined width, horizontal margins set to "auto" equally distribute the remaining horizontal space on both sides of the element, centering it within the container.
+
+``` CSS
+#autoMarginExample {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+```
+
+### Parent and Child Element Interplay
+
+#### Box Sizing
+
+By default, the width of an element does not include padding or border. CSS can alter this behavior using the `box-sizing` property:
+
+- **Content-Box** (default): The element's specified width and height are calculated excluding padding and border. When you change the width or height of an element using CSS, this is the model being used.
+- **Border-Box**: The width and height comprise the content, padding, and border, avoiding the expansion of the box when adding padding or border to an element.
+
+This distinction aids in layout control and ensures uniformity.
+
+``` CSS
+#borderBoxExample {
+    box-sizing: border-box;
+}
+```
+<br>
+
+## 12. Explain _margin collapsing_.
+
+**Margin collapsing** can occur when there are adjacent vertical margins between elements. In such cases, the larger of the two margins becomes the "collapsed margin."
+
+### Types of Margin Collapsing
+1. **Adjacent Sibling Collapsing**: When two blocks or inline-block elements are hierarchically adjacent, such as being direct children of a common container, their top and bottom margins might collapse. For instance, in the code:
+
+   ```html
+   <div>
+       <p>This is paragraph 1</p>
+       <p>This is paragraph 2</p>
+   </div>
+   ```
+
+2. **Parent-Child Collapsing**: If there are no intervening content or padding or border between the parent and the first/last child inside it, the parent's margins might collapse with the child's corresponding margin.
+
+### Visual Representation of Margin Collapsing
+- Vertical margin collapse: 
+![Vertical Margin Collapse](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/questions-images%2Fvartical-margin-collapse.jpg?alt=media&token=7a9f7961-302b-48c7-b74e-168f6780897f)
+- Horizontal margin collapse does not occur: ![Horizontal Margin Collapse](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/questions-images%2Fhorizontal-margin-collapse.jpg?alt=media&token=da23e77b-72aa-4c17-a287-3f274753be9a)
+
+### Preventing Margin Collapsing
+1. **Padding or Borders**: Introduce padding or borders to disrupt the margin collapsing behavior when required.  
+2. **Inline-Block or Floats**: Transform adjacent elements into `inline-block` or use `float` property.
+3. **Clearfix**: Employ a clearing technique for floated elements, which separates subsequent elements in the flow, ultimately preventing margin collapse.
+
+### CSS Rules and Margin Collapsing
+1. **Marginal vs. Calculated Total**: 
+   - If margins are set, every other margin is respected.
+   - If margins are calculated to be a non-zero value, margins can be collapsed.
+   - Margins from both the top and the bottom end of the elements are considered.
+2. **Non-Root Elements**: The root `<html>` element's margins don't collapse.
+3. **Non-Adjacent Items**: A margin doesn't collapse through wrapping or inline elements.
+
+While margin collapsing can simplify layout management under specific conditions, it's essential to understand its behavior to ensure predictable and consistent designs.
+<br>
+
+## 13. What are the different values for the _box-sizing_ property and what do they do?
+
+The `box-sizing` property has three possible values:
+
+1. **Content-Box**: Box dimensions are calculated by adding the `width` and `height` to the content only. This is the default behavior. Mathematically, this is represented as: $$ \text{Content Width/Height} = \text{Specified Width/Height} $$
+
+2. **Border-Box**: The `width` and `height` of the box are calculated by including both the content and padding within the specified values. Essentially, the browser will adjust the **content width and height measurements to include the padding and border** thickness. Mathematically, this is represented as: $$ \text{Content Width/Height} = \text{Specified Width/Height} - \text{Padding} - \text{Border} $$
+
+3. **Initial**: This value sets the `box-sizing` property to its default value, which is typically `content-box`.
+
+### Visual Representation
+
+![Box-Sizing Properties in CSS](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/questions-images%2Fcss-box-sizing.jpg?alt=media&token=6bba3876-148a-4b03-a5cc-c96bb8fddb5a)
+<br>
+
+## 14. How do you center a _block element_ with _CSS_?
+
+To center a **block-level** element using CSS, there are several methods, which handle either horizontal or vertical alignment.
+
+### Horizontal Centering
+
+There are three common options to horizontally center a block:
+
+1. **Auto margins**: by setting both left and right margins to `auto`.
+2. **Flexbox**: placing the block in a flex container and setting `justify-content: center`.
+3. **Grid**: applying the `place-items` property on the container set to grid layout.
+
+#### Code Example: Auto Margins
+```css
+.container {
+  width: 50%;
+  margin: 0 auto; /* Center horizontally */
+}
+```
+
+#### Code Example: Flexbox
+```css
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally center child elements */
+}
+```
+
+### Vertical Centering
+
+To vertically center a block, modern techniques such as Flexbox and Grid layout can be used.
+
+#### Code Example: Flexbox
+```css
+.container {
+  display: flex;
+  align-items: center; /* Vertically center child elements */
+}
+```
+
+#### Code Example: CSS Grid
+```css
+.container {
+  display: grid;
+  align-items: center; /* Vertically center child elements */
+}
+```
+<br>
+
+## 15. What is the difference between _block_, _inline_, and _inline-block elements_?
+
+**Block elements**, by default, stack vertically, while **inline elements** sit next to each other on the same line.
+
+**Inline-block elements** combine characteristics of both, stacking vertically and allowing for adjustments in height, margin, and padding.
+
+### Code Example: Key Differences
+
+Here is the HTML:
+
+```html
+<div class="block">Block</div>
+<span class="inline">Inline</span>
+<span class="inline-block">Inline-Block</span>
+```
+
+Here is the CSS:
+
+```css
+div, span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+  background: lightblue;
+  padding: 10px;
+}
+```
+
+In `div` and `span` due to default display type (block): text is separated by
+a gap.
+
+In `span.inline-block`: with `display: inline-block`, text shares a line but is visually separated by its background.
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - CSS](https://devinterview.io/questions/web-and-mobile-development/css-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
